@@ -38,8 +38,6 @@ ___
 
 > ## Experimenting with QHBOXLayout   
 
-<br>
-
 The QHBoxLayout is used to construct horizontal box layout objects for examples :
  
  <br>
@@ -86,8 +84,8 @@ void dialog :: placeWidgets()
    layout->addWidget(search);
  };
  ```
-> ## Nested Layouts
-<br>
+> ## Nested Layouts  
+
 I think it's important that we take a look at Combination Layouts, a feature that will make us understand the power of layouts
 
 Just as widgets can contain other widgets, layouts can be used to provide different levels of grouping for widgets.<br>
@@ -159,8 +157,8 @@ If the stretch factor is 0 and nothing else in the QBoxLayout has a stretch fact
 
 <br>
 
-> ## Bug Report Form
-<br>
+> ## Bug Report Form  
+
 As another application of layout the following form use QFormLayout which is a convenience layout class that lays out its children in a two-column form. The left column consists of labels and the right column consists of "field" widgets (line editors, spin boxes, etc.).
 <br>
 <br>
@@ -239,9 +237,8 @@ bugreport::bugreport(QWidget* parent):QWidget(parent){
   }
 ```
 
-> ## Grid Layout
+> ## Grid Layout  
 
-<br>
 the horizontal and vertical layouts are nice but it does not allow you to create very complex layouts on your window.
 
 This is where QGridLayout comes in, which is actually a bit of an assembly of QHBoxLayout andQVBoxLayout. It is  like a table with rows and columns.
