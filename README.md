@@ -36,8 +36,10 @@ We will study each of these classes in this lab, with the exception of QStackedL
 ___
 <br>
 
-> ## Experimenting with QHBOXLayout 
+> ## Experimenting with QHBOXLayout   
+
 <br>
+
 The QHBoxLayout is used to construct horizontal box layout objects for examples :
  
  <br>
