@@ -163,7 +163,7 @@ As another application of layout the following form use QFormLayout which is a c
 <br>
 <br>
 
-![layout](form.png)
+![layout](form.PNG)
 <br>
 
 * .h
@@ -251,7 +251,7 @@ You have to imagine that your window can be cut out in the form of a grid with a
 let's make things concrete !
 <br>
 
-![layout](calcul.png)
+![layout](calcul.PNG)
 
 * .h
 ``` c++
