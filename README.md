@@ -265,7 +265,8 @@ let's make things concrete !
 
 ![layout](calcul.PNG)
 
-* .h
+* .h  
+
 ``` c++
 class calculator : public QWidget
 {
