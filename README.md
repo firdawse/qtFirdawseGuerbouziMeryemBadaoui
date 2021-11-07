@@ -173,6 +173,7 @@ Using a QFormLayout is very easy. The difference is that instead of using an add
 
 ![layout](form.PNG)
 <br>
+  
 
 * .h  
 
@@ -197,6 +198,7 @@ class bugreport : public QWidget{
     QDialogButtonBox* buttonBox;
 };
 ```
+
 * .cpp  
 
 ``` c++
