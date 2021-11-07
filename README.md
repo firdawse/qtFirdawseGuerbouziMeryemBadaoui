@@ -261,7 +261,6 @@ You have to imagine that your window can be cut out in the form of a grid with a
 
 let's make things concrete !
 
-<br>
 
 ![layout](calcul.PNG)
 
