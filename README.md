@@ -23,16 +23,12 @@ We will study each of these classes in this lab, with the exception of QStackedL
 
 
 ---
-<br>
-
  **To be familiar with these concepts LET'S HAVE SOME PRACTICE  
  we will work on 4 forms**
  * Experimenting with QHBOXLayout
  * Nested Layouts
  * Bug report Form
  * Grid Layout
-
-
 ___
 <br>
 
@@ -174,8 +170,6 @@ Using a QFormLayout is very easy. The difference is that instead of using an add
  let's try to create this bug report : 
 
  <br>
-
-
 
 ![layout](form.PNG)
 <br>
