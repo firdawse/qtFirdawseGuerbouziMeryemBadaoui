@@ -174,7 +174,8 @@ Using a QFormLayout is very easy. The difference is that instead of using an add
 ![layout](form.PNG)
 <br>
 
-* .h
+* .h  
+
 ``` c++
 class bugreport : public QWidget{
     Q_OBJECT
@@ -196,7 +197,8 @@ class bugreport : public QWidget{
     QDialogButtonBox* buttonBox;
 };
 ```
-* .cpp
+* .cpp  
+
 ``` c++
 void bugreport::createWidgets(){
 //creating lineEdits
