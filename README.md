@@ -29,7 +29,6 @@ We will study each of these classes in this lab, with the exception of QStackedL
  * Nested Layouts
  * Bug report Form
  * Grid Layout
----
 <br>
 
 > ## Experimenting with QHBOXLayout  
