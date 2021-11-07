@@ -113,6 +113,7 @@ protected:
     QPushButton*close;
 };
  ```
+ 
 * .cpp  
 
 ```cpp
