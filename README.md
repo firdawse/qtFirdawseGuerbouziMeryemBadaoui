@@ -29,7 +29,7 @@ We will study each of these classes in this lab, with the exception of QStackedL
  * Nested Layouts
  * Bug report Form
  * Grid Layout
-___
+---
 <br>
 
 > ## Experimenting with QHBOXLayout  
@@ -43,7 +43,8 @@ The QHBoxLayout is used to construct horizontal box layout objects for examples 
 
 ![layout](hbox.png) 
 
-* .h
+* .h  
+
 ``` c++
  class dialog : public QWidget
 {
@@ -59,7 +60,8 @@ protected:
 };
 
 ```
- * .cpp
+ * .cpp  
+ 
  ``` c++
  dialog::dialog(QWidget *parent):QWidget(parent)
 {
