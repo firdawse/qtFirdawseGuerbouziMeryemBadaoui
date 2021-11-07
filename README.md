@@ -113,8 +113,8 @@ protected:
     QPushButton*close;
 };
  ```
+* .cpp  
 
-* .cpp
 ```cpp
 dialog2::dialog2(QWidget *parent):QWidget(parent)
 {creatWidgets();
