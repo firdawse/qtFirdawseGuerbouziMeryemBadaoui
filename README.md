@@ -174,7 +174,7 @@ Using a QFormLayout is very easy. The difference is that instead of using an add
 
 
 
-![layout](form.png)
+![layout](form.PNG)
 <br>
 
 * .h
@@ -260,9 +260,10 @@ You have to imagine that your window can be cut out in the form of a grid with a
 ![layout](grid.png)
 
 let's make things concrete !
+
 <br>
 
-![layout](calcul.png)
+![layout](calcul.PNG)
 
 * .h
 ``` c++
