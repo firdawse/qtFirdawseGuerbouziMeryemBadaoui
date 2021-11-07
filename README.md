@@ -323,8 +323,8 @@ positionWidgets();
 
 <br>
 
-      thanks to the layouts, the effort is reduced and the fun is assured; but to be honest, it's boring to have static applications,isn't it ?
-      so see you in our next session full of connextions !
+   thanks to the layouts, the effort is reduced and the fun is assured; but to be honest, it's boring to have static applications,isn't it ?
+   so see you in our next session full of connextions !
 
 
 
