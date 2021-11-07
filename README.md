@@ -285,7 +285,8 @@ private:
 
 };
 ```
-* .cpp
+* .cpp  
+
 ``` c++
 void calculator ::creatingWdgets(){
     for(int i=0;i<10;i++){
