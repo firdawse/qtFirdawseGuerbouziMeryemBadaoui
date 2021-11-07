@@ -28,7 +28,8 @@ We will study each of these classes in this lab, with the exception of QStackedL
  * Experimenting with QHBOXLayout
  * Nested Layouts
  * Bug report Form
- * Grid Layout
+ * Grid Layout  
+ 
 <br>
 
 > ## Experimenting with QHBOXLayout  
@@ -36,8 +37,6 @@ We will study each of these classes in this lab, with the exception of QStackedL
 
 <br>
 The QHBoxLayout is used to construct horizontal box layout objects for examples :
- 
- <br>
 <br>
 
 ![layout](hbox.png) 
