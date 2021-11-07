@@ -36,8 +36,8 @@ We will study each of these classes in this lab, with the exception of QStackedL
 ___
 <br>
 
-> ## Experimenting with QHBOXLayout   
-
+> ## Experimenting with QHBOXLayout 
+<br>
 The QHBoxLayout is used to construct horizontal box layout objects for examples :
  
  <br>
@@ -84,12 +84,11 @@ void dialog :: placeWidgets()
    layout->addWidget(search);
  };
  ```
-> ## Nested Layouts  
-
+> ## Nested Layouts
+<br>
 I think it's important that we take a look at Combination Layouts, a feature that will make us understand the power of layouts
 
-Just as widgets can contain other widgets, layouts can be used to provide different levels of grouping for widgets.<br>
-This is where the magic appears ! 
+Just as widgets can contain other widgets, layouts can be used to provide different levels of grouping for widgets. This is where the magic appears ! 
 
 Here, we want to display a classic dialog from the book GB to search for a user.
 
@@ -157,13 +156,25 @@ If the stretch factor is 0 and nothing else in the QBoxLayout has a stretch fact
 
 <br>
 
-> ## Bug Report Form  
-
+> ## Bug Report Form
+<br>
 As another application of layout the following form use QFormLayout which is a convenience layout class that lays out its children in a two-column form. The left column consists of labels and the right column consists of "field" widgets (line editors, spin boxes, etc.).
 <br>
-<br>
 
-![layout](form.PNG)
+Using a QFormLayout is very easy. The difference is that instead of using an addWidget method, we're going to use an addRow method which takes two parameters:
+
+  the text of the label;
+
+  a pointer to the form field.
+
+
+ let's try to create this bug report : 
+
+ <br>
+
+
+
+![layout](form.png)
 <br>
 
 * .h
@@ -237,8 +248,9 @@ bugreport::bugreport(QWidget* parent):QWidget(parent){
   }
 ```
 
-> ## Grid Layout  
+> ## Grid Layout
 
+<br>
 the horizontal and vertical layouts are nice but it does not allow you to create very complex layouts on your window.
 
 This is where QGridLayout comes in, which is actually a bit of an assembly of QHBoxLayout andQVBoxLayout. It is  like a table with rows and columns.
@@ -250,7 +262,7 @@ You have to imagine that your window can be cut out in the form of a grid with a
 let's make things concrete !
 <br>
 
-![layout](calcul.PNG)
+![layout](calcul.png)
 
 * .h
 ``` c++
@@ -310,8 +322,9 @@ positionWidgets();
 ```
 
 <br>
-<span style="color: yellow"> thanks to the layouts, the effort is reduced and the fun is assured; but to be honest, it's boring to have static applications,isn't it ? see you in our next session full of connextions ! </span>
-  
+
+      thanks to the layouts, the effort is reduced and the fun is assured; but to be honest, it's boring to have static applications,isn't it ?
+      so see you in our next session full of connextions !
 
 
 
